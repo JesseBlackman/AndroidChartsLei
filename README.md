@@ -1,15 +1,10 @@
 ### Introduction
-		First of All,this project is not totally written by me.I just make 
-		it to meet my needs.
-		It's antetype is dacer's AndroidCharts.
-		I use these charts to show situations of study rooms.You can easy 
-		find which classroom is busy and how long will it open on this day.
-###There is his project's link:
-[https://github.com/dacer/AndroidCharts](http://github.com/dacer/AndroidCharts)<br />  
+		I use these charts to show situations of study rooms.You can easy find which classroom is busy 
+		and how long will it open on this day.
 ### ScreenShots
-LineView(I call it BreakpointLineView) and BarView
-![image](http://github.com/JesseBlackman/AndroidChartsLei/ScreenShots/androidchartslei_screenshots_1.jpeg)
-PieView
-![image](http://github.com/JesseBlackman/AndroidChartsLei/ScreenShots/androidchartslei_screenshots_2.jpeg)
+LineView(I call it BreakpointLineView) and BarView<br />  
+![](http://github.com/JesseBlackman/AndroidChartsLei/ScreenShots/androidchartslei_screenshots_1.jpeg)
+PieView<br />  
+![](http://github.com/JesseBlackman/AndroidChartsLei/ScreenShots/androidchartslei_screenshots_2.jpeg)
 		
 	
