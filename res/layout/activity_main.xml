@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="#ffffff">
+  
+
+ 	<RelativeLayout
+        	android:id="@+id/chartfortb_top_relative"
+        	android:layout_width="fill_parent"
+        	android:layout_height="50.0dip"
+        	android:background="#106184"
+        	android:orientation="horizontal" >
+
+    		<TextView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignParentLeft="true"
+    		    android:layout_centerVertical="true"
+    		    android:layout_marginLeft="10dp"
+    		    android:singleLine="true"
+    		    android:text="AndroidChartsLeiDemo"
+    		    android:textColor="#FFFFFF"
+    		    android:textSize="15dp" />
+    		
+    		<TextView
+     		    android:id="@+id/btn_refresh2"
+     		    android:layout_width="50dp"
+     		    android:layout_height="30dp"
+     		    android:layout_alignParentRight="true"
+     		    android:layout_centerVertical="true"
+     		    android:layout_marginRight="10dp"
+     		    android:background="#FFEFDB"
+     		    android:gravity="center"
+     		    android:text="刷新2"
+     		    android:textColor="#000000" />
+    		
+    		<TextView
+    		    android:id="@+id/btn_refresh1"
+    		    android:layout_width="50dp"
+    		    android:layout_height="30dp"
+
+    		    android:layout_centerVertical="true"
+    		    android:layout_marginRight="10dp"
+    		    android:layout_toLeftOf="@id/btn_refresh2"
+    		    android:background="#FFEFDB"
+    		    android:gravity="center"
+    		    android:text="刷新1"
+    		    android:textColor="#000000" />
+    
+     		
+    
+	</RelativeLayout>
+	<ScrollView
+
+        android:id="@+id/pull_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chartfortb_top_relative"
+        android:fadingEdge="none" >
+
+ 		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+       			<TextView
+            		android:id="@+id/chartsdemo_lineviewname"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginLeft="10.0dip"
+            		android:layout_marginTop="5.0dip"
+            		android:text="LineView"
+            		android:textColor="#000000" />
+
+      			<HorizontalScrollView
+      			    android:id="@+id/chartsdemo_horizontalScrollView1"
+      			    android:layout_width="fill_parent"
+      			    android:layout_height="wrap_content"
+      			    android:layout_marginBottom="10dp"
+      			    android:layout_marginLeft="10dp"
+      			    android:layout_marginRight="10dp" >
+           			
+           			<view
+             			android:layout_width="wrap_content"
+             			android:layout_height="match_parent"
+             			class="com.androidchartslei.LineView"
+             			android:id="@+id/line_view"/>
+           			
+     			 </HorizontalScrollView>
+     			 
+        		<TextView
+            		android:id="@+id/chartsdemo_barviewname"
+           		    android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginLeft="10.0dip"
+            		android:layout_marginTop="10.0dip"
+            		android:text="BarView"
+            		android:textColor="#000000" />
+
+       			<HorizontalScrollView
+       			    android:id="@+id/chartsdemo_horizontalScrollView2"
+       			    android:layout_width="fill_parent"
+       			    android:layout_height="wrap_content"
+       			    android:layout_marginBottom="10dp"
+       			    android:layout_marginLeft="10dp"
+       			    android:layout_marginRight="10dp" >
+        			
+        			<view
+            			android:layout_width="wrap_content"
+            			android:clickable="true"
+            			android:layout_height="250dp"
+            			class="com.androidchartslei.BarView"
+            			android:id="@+id/bar_view" />
+        			
+       			</HorizontalScrollView>
+       			
+       			<TextView
+            		android:id="@+id/chartsdemo_pieviewname"
+           		    android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginLeft="10.0dip"
+            		android:layout_marginTop="10.0dip"
+            		android:text="PieView"
+            		android:textColor="#000000" />
+
+        			<view
+        			    android:id="@+id/pie_view"
+        			    android:layout_width="fill_parent"
+        			    android:layout_height="fill_parent"
+        			    android:layout_marginLeft="10dp"
+        			    android:layout_marginRight="10dp"
+        			    class="com.androidchartslei.PieView"
+        			    android:clickable="true" />
+       		
+          </LinearLayout>
+ 	</ScrollView>
+</RelativeLayout>
