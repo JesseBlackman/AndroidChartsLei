@@ -3,7 +3,7 @@
 		it to meet my needs.
 		It's antetype is dacer's AndroidCharts.
 		I use these charts to show situations of study rooms.You can easy 
-		find which room is busy and how long it will open this day.
+		find which classroom is busy and how long will it open on this day.
 ###There is his project's link:
 [https://github.com/dacer/AndroidCharts](http://github.com/dacer/AndroidCharts)<br />  
 ### ScreenShots
